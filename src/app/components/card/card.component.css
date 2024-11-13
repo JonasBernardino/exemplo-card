@@ -1,0 +1,16 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 300px;
+  box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card-img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+.card-body {
+  margin-top: 1rem;
+}
