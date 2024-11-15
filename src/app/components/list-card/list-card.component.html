@@ -1,0 +1,9 @@
+<button (click)="pagina2()">Pagina 2</button>
+
+<div class="container">
+  @for(product of products; track products){
+  <app-card [image]="product.image" [description]="product.description" [value]="product.value"></app-card>
+  }
+</div>
+
+
